@@ -3,10 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Landing Page</title>
+    <title>Fashion Stylist</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Welcome to My Landing Page</h1>
-    <p>This is a simple landing page hosted on GitHub Pages!</p>
+    <div class="container">
+        <h1>Welcome to My Fashion Styling Service</h1>
+        <p>Your journey to a stylish you starts here!</p>
+
+        <form id="contact-form">
+            <input type="text" id="full-name" placeholder="Full Name" required>
+            <input type="tel" id="phone" placeholder="Phone Number" required>
+            <textarea id="comments" placeholder="Your Comments" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
